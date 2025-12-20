@@ -31,3 +31,4 @@ chmod +x "$HOME/.config/scripts/switch_colors.sh"
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 gsettings set org.nemo.desktop show-desktop-icons false
 gsettings set org.cinnamon.desktop.default-applications.terminal exec 'kitty'
+hyprctl reload

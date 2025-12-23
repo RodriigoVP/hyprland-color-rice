@@ -10,7 +10,9 @@ window {
 }
 
 button {
-    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
     color: white;
     border-radius: 6px;
     outline: none;
@@ -26,24 +28,35 @@ button:hover {
     outline-style: none;
 }
 
-#logout, #suspend, #shutdown, #reboot {
+#logout,
+#suspend,
+#shutdown,
+#reboot {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 72px 72px;
 }
 
+#lock {
+    background-image: url("icons/lock.png");
+}
+
 #logout {
-    background-image: url("file:///home/rodrigo/.config/wlogout/icons/logout.png");
+    background-image: url("icons/logout.png");
 }
 
 #suspend {
-    background-image: url("file:///home/rodrigo/.config/wlogout/icons/suspend.png");
+    background-image: url("icons/suspend.png");
+}
+
+#hibernate {
+    background-image: url("icons/hibernate.png");
 }
 
 #reboot {
-    background-image: url("file:///home/rodrigo/.config/wlogout/icons/reboot.png");
+    background-image: url("icons/reboot.png");
 }
 
 #shutdown {
-    background-image: url("file:///home/rodrigo/.config/wlogout/icons/shutdown.png");
+    background-image: url("icons/shutdown.png");
 }

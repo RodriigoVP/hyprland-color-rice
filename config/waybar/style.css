@@ -8,17 +8,17 @@
     border-radius: 0px;
     color: white;
     font-size: 15px;
+    font-weight: 500;
 }
 
 window#waybar{
     background-color: transparent;
-    margin: 0 -10px;
 }
 
 #workspaces{
+    min-height: 10px;
     border-radius: 6px;
-    background-color: alpha(@color9, 0.8);
-    border: 2px solid alpha(@color12, 0.7);
+    background-color: @color9;
     color: @background;
 }
 
@@ -29,21 +29,18 @@ window#waybar{
 #workspaces button.active {
     color: @background;
     background: @color4;
-    border-radius: 6px;
-    min-width: 40px;
+    min-width: 20px;
     transition: all 0.3s ease-in-out;
 }
 
 #workspaces button:hover {
     background-color: @color5;
     color: @background;
-    border-radius: 6px;
     border: none;
 }
 
 #clock, #cpu, #battery, #tray, #memory, #network, #custom-power{
-    background-color: alpha(@color9, 0.8);
-    border: 2px solid alpha(@color12, 0.7);
+    background-color: @color9;
     padding: 7px 10px;
     border-radius: 6px;
     margin: 0 5px;

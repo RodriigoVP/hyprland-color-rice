@@ -1,7 +1,7 @@
 {
   "include": ["~/.config/waybar/modules.jsonc"],
   "layer": "top",
-  "margin": "10px 10px 2px 10px",
+  "margin": "4px 1px 0px 1px",
   "reload_style_on_change": true,
   "fixed-center": true,
   "modules-left": ["clock", "cpu", "memory"],

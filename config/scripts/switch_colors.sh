@@ -20,4 +20,6 @@ echo "Pywal finalizado." >> /tmp/wal-hook.log
 
 echo "hyprpaper.conf actualizado con $WALLPAPER_PATH" >> /tmp/wal-hook.log
 
+sh $HOME/.config/scripts/apply_mako.sh
+
 exit 0

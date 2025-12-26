@@ -7,7 +7,7 @@ fi
 
 paquetes() {
     local pkgs=(
-        kate ark zed python-pywal hyprpaper waypaper brave-bin waybar wofi xdg-desktop-portal-gtk nemo nemo-fileroller gvfs tumbler ffmpegthumbnailer grim slurp wl-clipboard networkmanager network-manager-applet dolphin adwaita-dark adw-gtk-theme adwaita-icon-theme wlogout hyprlock breeze inter-font qt6ct qt5ct breeze-icons qt5-wayland qt6-wayland
+        kate ark zed python-pywal hyprpaper waypaper brave-bin waybar wofi xdg-desktop-portal-gtk nemo nemo-fileroller gvfs tumbler ffmpegthumbnailer grim slurp wl-clipboard networkmanager network-manager-applet dolphin adwaita-dark adw-gtk-theme adwaita-icon-theme wlogout hyprlock breeze inter-font qt6ct qt5ct breeze-icons qt5-wayland qt6-wayland mako
     )
 
     local failed=()

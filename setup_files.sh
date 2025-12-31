@@ -29,7 +29,7 @@ chmod +x "$HOME/.config/scripts/wal-hook.sh"
 chmod +x "$HOME/.config/scripts/switch_colors.sh"
 chmod +x "$HOME/.config/scripts/apply_mako.sh"
 
-
+sudo gpasswd -a $USER realtime
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 gsettings set org.nemo.desktop show-desktop-icons false
 gsettings set org.cinnamon.desktop.default-applications.terminal exec 'kitty'
